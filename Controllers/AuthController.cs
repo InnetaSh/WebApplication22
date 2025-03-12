@@ -31,15 +31,16 @@ namespace WebApplication22.Controllers
 
         
         [HttpPost("register")]
-        public IActionResult Reg(string userName, string password)
+        public IActionResult Reg([FromBody] UserRequest model)
         {
-            var fitUser = _users.FirstOrDefault(x => x.Username == userName && x.Password == password);
+            var fitUser = _users.FirstOrDefault(x => x.Username == model.Username && x.Password == model.Password);
             if (fitUser == null)
             {
-                _users.Add(new User() { Username = userName, Password = password });
+                var token = GenerateJwtToken(model.Username);
+                _users.Add(new User() { Username = model.Username, Password = model.Password, Token = token });
+                var isAdmin = false;
                 SaveUsers();
-                var token = GenerateJwtToken(userName);
-                return Ok(new { token, userName });
+                return Ok(new { token, isAdmin });
             }
             return Ok();
         }
@@ -52,6 +53,10 @@ namespace WebApplication22.Controllers
             {
                 var token = GenerateJwtToken(model.Username);
                 fitUser.Token = token;
+                foreach(var c in fitUser.Comments)
+                {
+                    c.Token = token;
+                }
                 var isAdmin = fitUser.IsAdmin;
                 SaveUsers();
                 return Ok(new { token, isAdmin });
@@ -65,7 +70,9 @@ namespace WebApplication22.Controllers
             var fitUser = _users.FirstOrDefault(x => x.Token == request.Token);
             if (fitUser != null)
             {
-                var id = _users.SelectMany(x => x.Comments).Max(x => x.Id)+1;
+                var id = _users.SelectMany(x => x.Comments).Any()
+                     ? _users.SelectMany(x => x.Comments).Max(x => x.Id) + 1
+                     : 1;
                 var newComment = new CommentText()
                 {
                     Id = id,
@@ -103,15 +110,16 @@ namespace WebApplication22.Controllers
         public IActionResult GetComments()
         {
             var comments = _users.SelectMany(x => x.Comments)
-                         .Select(c => new CommentResponse
-                         {
-                             Id = c.Id,
-                             Comment = c.Comment,
-                             CreatedAt = c.CreatedAt,
-                             UserName = c.UserName,
-                             Token = c.Token,
-                         })
-                         .ToList();
+         .Select(c => new CommentResponse
+         {
+             Id = c.Id,
+             Comment = c.Comment,
+             CreatedAt = c.CreatedAt,
+             UserName = c.UserName,
+             Token = c.Token,
+         })
+         .OrderByDescending(c => c.CreatedAt)  
+         .ToList();
 
             return Ok(comments);
         }

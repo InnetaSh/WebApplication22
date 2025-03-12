@@ -3,36 +3,88 @@
     "IsAdmin": true,
     "Username": "admin",
     "Password": "12345",
-    "Token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiYWRtaW4iLCJleHAiOjE3NDE3Nzg0NTd9.N4_xGW9dx3RfwEiisywEHMTvE7T9QPRpzMeRABztbL0",
-    "Comments": []
-  },
-  {
-    "IsAdmin": false,
-    "Username": "ee",
-    "Password": "22",
-    "Token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiZWUiLCJleHAiOjE3NDE3NzY0Nzh9.0YQHduikFxwC6l4NGAuFR3lHpSOGONJTON4gdoVtzTk",
-    "Comments": []
-  },
-  {
-    "IsAdmin": false,
-    "Username": "ee",
-    "Password": "11",
-    "Token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiZWUiLCJleHAiOjE3NDE3NzgxMTZ9.qK5STss-rkLYTwRqIsgIC1ApJmCgQmpKH49SRyxPLIg",
+    "Token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiYWRtaW4iLCJleHAiOjE3NDE3OTMyNTV9.tVGSRh5oRFrqweWb-1iqDqRugV-dJKc3m1oxuokCf9o",
     "Comments": [
       {
-        "Id": 2,
-        "Comment": "qwe",
-        "CreatedAt": "3/10/2025, 8:43:03 PM",
-        "UserName": null,
-        "Token": null
-      },
-      {
-        "Id": 4,
-        "Comment": "tesa2",
-        "CreatedAt": "3/12/2025, 12:46:31 PM",
-        "UserName": "ee",
-        "Token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiZWUiLCJleHAiOjE3NDE3NzgxMTZ9.qK5STss-rkLYTwRqIsgIC1ApJmCgQmpKH49SRyxPLIg"
+        "Id": 7,
+        "Comment": "Мне нравится, что Apple и другие бренды начали использовать переработанные материалы в своих устройствах. Это важно для экологии, и я рад, что технологические гиганты начинают думать об этом. Поддерживаю такую инициативу",
+        "CreatedAt": "3/12/2025, 4:22:17 PM",
+        "UserName": "admin",
+        "Token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiYWRtaW4iLCJleHAiOjE3NDE3OTMyNTV9.tVGSRh5oRFrqweWb-1iqDqRugV-dJKc3m1oxuokCf9o"
       }
     ]
+  },
+  {
+    "IsAdmin": false,
+    "Username": "user1",
+    "Password": "1111",
+    "Token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoidXNlcjEiLCJleHAiOjE3NDE3OTMzMDJ9.DQJgONte6wqxegheV-ET229iutVUFKBxRkfCopcjc4E",
+    "Comments": [
+      {
+        "Id": 8,
+        "Comment": "Я тоже слышал, что некоторые бренды используют переработанный пластик, но до тех пор, пока не будет решена проблема с переработкой старых смартфонов, это не будет достаточно. Я, например, сам стараюсь сдавать свои старые устройства на переработку",
+        "CreatedAt": "3/12/2025, 4:22:54 PM",
+        "UserName": "user1",
+        "Token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoidXNlcjEiLCJleHAiOjE3NDE3OTMzMDJ9.DQJgONte6wqxegheV-ET229iutVUFKBxRkfCopcjc4E"
+      },
+      {
+        "Id": 11,
+        "Comment": "Когда 5G станет массово доступным, смартфоны с этим стандартом просто взорвут рынок! Уже сейчас есть модели с 5G, но сети еще не везде работают, поэтому это больше маркетинговый ход. В моей стране 5G еще не распространен",
+        "CreatedAt": "3/12/2025, 4:58:27 PM",
+        "UserName": "user1",
+        "Token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoidXNlcjEiLCJleHAiOjE3NDE3OTMzMDJ9.DQJgONte6wqxegheV-ET229iutVUFKBxRkfCopcjc4E"
+      }
+    ]
+  },
+  {
+    "IsAdmin": false,
+    "Username": "user2",
+    "Password": "2222",
+    "Token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoidXNlcjIiLCJleHAiOjE3NDE3OTMzNDZ9._32fST9V5moMCewxBfsoVXR9hvMyCXyAjW3LWs_HFqc",
+    "Comments": [
+      {
+        "Id": 10,
+        "Comment": "Я тоже слышал, что некоторые бренды используют переработанный пластик, но до тех пор, пока не будет решена проблема с переработкой старых смартфонов, это не будет достаточно. Я, например, сам стараюсь сдавать свои старые устройства на переработку.",
+        "CreatedAt": "3/12/2025, 4:24:53 PM",
+        "UserName": "user2",
+        "Token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoidXNlcjIiLCJleHAiOjE3NDE3OTMzNDZ9._32fST9V5moMCewxBfsoVXR9hvMyCXyAjW3LWs_HFqc"
+      },
+      {
+        "Id": 12,
+        "Comment": "5G действительно стоит своего, но, на мой взгляд, пока это не так важно. Я живу в маленьком городе, и 4G вполне хватает. Конечно, в мегаполисах 5G будет полезно, но на текущий момент я не вижу огромной разницы в скорости для обычного использования",
+        "CreatedAt": "3/12/2025, 4:58:47 PM",
+        "UserName": "user2",
+        "Token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoidXNlcjIiLCJleHAiOjE3NDE3OTMzNDZ9._32fST9V5moMCewxBfsoVXR9hvMyCXyAjW3LWs_HFqc"
+      },
+      {
+        "Id": 13,
+        "Comment": "Аккумулятор на моем OnePlus 8 Pro держит весь день при активном использовании, но мне реально не нравится, как быстро расходуется зарядка. Быстрая зарядка — это удобно, но мне не нравится, что батарея разряжается так быстро, если пользоваться телефоном на полную",
+        "CreatedAt": "3/12/2025, 4:59:10 PM",
+        "UserName": "user2",
+        "Token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoidXNlcjIiLCJleHAiOjE3NDE3OTMzNDZ9._32fST9V5moMCewxBfsoVXR9hvMyCXyAjW3LWs_HFqc"
+      }
+    ]
+  },
+  {
+    "IsAdmin": false,
+    "Username": "user3",
+    "Password": "3333",
+    "Token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoidXNlcjMiLCJleHAiOjE3NDE3OTMzNTl9.aI7DZBbAClGPQpWnAMq8rd9DBDh67prZZTWKXtBnNFU",
+    "Comments": [
+      {
+        "Id": 14,
+        "Comment": "Я думаю, что многие люди не замечают, сколько времени тратят на зарядку своих смартфонов с функцией быстрой зарядки. У меня был Xiaomi с быстрой зарядкой 65W, и это реально удобно. 30 минут, и телефон заряжен на 70%. Это сильно экономит время",
+        "CreatedAt": "3/12/2025, 4:59:29 PM",
+        "UserName": "user3",
+        "Token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoidXNlcjMiLCJleHAiOjE3NDE3OTMzNTl9.aI7DZBbAClGPQpWnAMq8rd9DBDh67prZZTWKXtBnNFU"
+      }
+    ]
+  },
+  {
+    "IsAdmin": false,
+    "Username": "user4",
+    "Password": "1111",
+    "Token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoidXNlcjQiLCJleHAiOjE3NDE3OTMxODJ9.h3IhzpSWlIbd8Q9-edubD96KxGhQovux4HkHKrHnAxI",
+    "Comments": []
   }
 ]
